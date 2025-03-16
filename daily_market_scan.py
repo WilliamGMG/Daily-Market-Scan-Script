@@ -22,7 +22,7 @@ else:
 client = polygon.RESTClient(API_KEY, retries=5)
 
 #files
-tickerFile = open("..\\tickers.txt")
+tickerFile = open("tickers.txt")
 
 #create output files
 scan_output = open("scan_output.csv", "w")
